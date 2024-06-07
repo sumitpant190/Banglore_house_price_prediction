@@ -21,11 +21,15 @@ To build the Docker image, use the following command:
 
 ```sh
 docker build -t nginx-server .
+```
 
 ### 2. Run the Container
 
 To run the Docker container and map port 9000 on the host to port 80 in the container, use the following command:
+
+```sh
 docker run -d -p 9000:80 nginx-server
+```
 
 
 
