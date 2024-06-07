@@ -13,7 +13,7 @@ This project provides a Dockerfile that automates the following tasks:
 
 When the Docker container is run, the HTML file is accessible from the browser at [http://localhost:9000/site/index.html](http://localhost:9000/site/index.html).
 
-**3. Configuration File for Nginx
+**Configuration File for Nginx**
 Ensure that the configuration file for Nginx (nginx.conf) is kept within the directory of the Dockerfile. This file is copied to the container during the build process and is necessary for configuring the Nginx server.
 
 ## Steps to Build and Run the Docker Container
